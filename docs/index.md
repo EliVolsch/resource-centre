@@ -28,7 +28,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 >THis is a note
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-YA_dA8C20?si=uoOb5fCoQpVQiSHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-YA_dA8C20?si=uoOb5fCoQpVQiSHY" title="YouTube video player" allowfullscreen></iframe>
 
 <figure class="mdx-video" markdown>
   <div class="mdx-video__inner">
