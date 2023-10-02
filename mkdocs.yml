@@ -9,73 +9,86 @@ edit_uri: "https://github.com/EliVolsch/resource-centre/blob/main/docs/"
 
 copyright: Resource-Centre and Contributors
 
-# Configuration
 theme:
   name: material
-  language: en
   direction: ltr
   include_search_page: true
   search_index_only: true
   features:
-    - content.code.annotate
-    - content.tabs.link
-    - header.autohide
-    # - navigation.expand
-    # - navigation.prune # cannot work with naviation.expand
-    - navigation.indexes
-    - navigation.instant
-    - navigation.sections
     - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
     - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
     - search.suggest
-    - toc.follow
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
   palette:
     - scheme: default
-      primary: green
-      accent: green
       toggle:
-        icon: material/brightness-4
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - scheme: slate
       primary: teal
-      accent: teal
+      accent: purple
+    - scheme: slate
       toggle:
-        icon: material/brightness-6
+        icon: material/toggle-switch
         name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/logo.png
-  icon:
-    logo: material/book
+      primary: teal
+      accent: lime
+copyright: Kartoza and Contributors
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/EliVolsch/
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/james-willett
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TheJamesWillett
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/willettjames/
+
+markdown_extensions:
+        - attr_list
+        - pymdownx.highlight:
+                  anchor_linenums: true
+        - pymdownx.inlinehilite
+        #- mdx_truly_sane_lists
+        - toc:
+                  permalink: true
+                   #slugify: !!python/name:pymdownx.slugs.slugify
+        - pymdownx.snippets:
+                  base_path: .
+        - admonition
+        - tables
+        - pymdownx.details
+        - pymdownx.caret
+        - pymdownx.keys
+        - pymdownx.mark
+        - pymdownx.tilde
+        - pymdownx.superfences:
+                  custom_fences:
+                          - name: mermaid
+                            class: mermaid
+                            format: !!python/name:pymdownx.superfences.fence_code_format
+        - pymdownx.emoji:
+                  emoji_generator: !!python/name:materialx.emoji.to_svg
+                  emoji_index: !!python/name:materialx.emoji.twemoji
 
 nav:
   - Home:
-      - index.md
-  - Explore Tutorials:
-      - "": explore.md
-      - Video Tutorials:
-          - videoT/index.md
-          - Figma:
-              - videoT/figma/index.md
-      - Read Through Tutorials:
-          - docT/index.md
-          - Figma:
-              - Intro: docT/figma/index.md
-              - Getting Started: docT/figma/getting-up.md
-          - Mkdocs:
-              - docT/mkdocs/index.md
+      - /index.md # short intro on project here
+  - Learning Materials:
+      - /explore.md # this will be menu file with all courses
+      - Figma: /figma/index.md
+      - Mkdocs Materials: /mkdocs/index.md
+  - Contribute:
+      - index.md #Why should people contribute to this platform? Link contributors gh handles
+      - How to contribute: contribute.md
+      - Contribution Guidelines: guidelines.md
   - About:
-      - about/index.md
-      - Code of conduct: about/codeofconduct.md
-      - Contributing to this site: about/contributing.md
+      - /index.md
       - Terms of use: about/terms.md
+      - License: about/license.md
+  - Help: help.md
