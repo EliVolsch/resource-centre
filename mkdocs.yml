@@ -15,15 +15,21 @@ theme:
   include_search_page: true
   search_index_only: true
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
+    - content.code.annotate
     - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+    - header.autohide
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
   language: en
   palette:
     - scheme: default
@@ -77,21 +83,24 @@ markdown_extensions:
                   emoji_index: !!python/name:materialx.emoji.twemoji
 
 nav:
-  - Home:
-      - index.md # short intro on project here
-      - Code of conduct: about/codeofconduct.md
-  - Learning Materials:
-      - explore.md # this will be menu file with all courses
-      - Figma: 
-          - materials/figma/index.md
-          - Fundamentals: materials/figma/fundamentals.md
-          - Getting started: materials/figma/getting-up.md
-      - Mkdocs Materials: materials/mkdocs/index.md
-  - Contribute:
-      - /about/contributing.md #Why should people contribute to this platform? Link contributors gh handles
-      - Contribution Guidelines: about/guidelines.md
-  - About:
-      - /index.md
-      - Terms of use: about/terms.md
-      - License: about/license.md
-  - Help: /help.md
+        - Home:
+                - index.md # short intro on project here
+                - Code of conduct: about/codeofconduct.md
+        - Learning Materials:
+                - materials/explore.md # this will be menu file with all courses
+                - Figma: 
+                        - materials/figma/figma_basic/index.md
+                        - Fundamentals: materials/figma/figma_basic/index.md
+                        - Auto Layout: materials/figma/figma_basic/autoLayout.md
+                        - Getting started: materials/figma/figma/getting-up.md
+                - MKdocs: materials/mkdocs/index.md
+                - MKdocs: materials/mkdocs/index.md
+                - Mkdocs: materials/mkdocs/index.md
+        - Contribute:
+                - /about/contributing.md #Why should people contribute to this platform? Link contributors gh handles
+                - Contribution Guidelines: about/guidelines.md
+        - About:
+                - about/index.md
+                - Terms of use: about/terms.md
+                - License: about/license.md
+        - Help: help.md
