@@ -78,17 +78,20 @@ markdown_extensions:
 
 nav:
   - Home:
-      - /index.md # short intro on project here
+      - index.md # short intro on project here
+      - Code of conduct: about/codeofconduct.md
   - Learning Materials:
-      - /explore.md # this will be menu file with all courses
-      - Figma: /figma/index.md
-      - Mkdocs Materials: /mkdocs/index.md
+      - explore.md # this will be menu file with all courses
+      - Figma: 
+          - materials/figma/index.md
+          - Fundamentals: materials/figma/fundamentals.md
+          - Getting started: materials/figma/getting-up.md
+      - Mkdocs Materials: materials/mkdocs/index.md
   - Contribute:
-      - index.md #Why should people contribute to this platform? Link contributors gh handles
-      - How to contribute: contribute.md
-      - Contribution Guidelines: guidelines.md
+      - /about/contributing.md #Why should people contribute to this platform? Link contributors gh handles
+      - Contribution Guidelines: about/guidelines.md
   - About:
       - /index.md
       - Terms of use: about/terms.md
       - License: about/license.md
-  - Help: help.md
+  - Help: /help.md
