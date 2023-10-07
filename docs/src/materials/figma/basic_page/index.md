@@ -129,3 +129,57 @@ Search for a suitable plugin and select `RUN` from the menu. In most plugin we c
 Once all the nessacerry buttons and components have been created we can simply select the entire navbar and create a component. This will like the buttons allow us to use it multiple time on many different pages.
 
 ![navbar](./img/Navbar.png)
+
+### Adding images
+Images can be used to create striking desings in your desing and we can create cool animations using frames with images inside of them. For now lest add some conent to our page and get it looking better.
+
+I started by using the `UNSLPASH` plugin to find some `FREE-To-Use` sample pictures. 
+
+![samplepics](./img/samplePics.png)
+
+From the selection I decide the colorfull squares should be the background of my design. The only problem is the frame is much larger than the image. This can be quicly fixed by resizing the image while holding down the `shift` button. This keeps the origional aspwct ration of the image while scaling it. 
+
+![squares](./img/scalePic.png)
+![squares](./img/scalePic2.png)
+
+I then went on to create some content for the platform. Using the shape tool to create shapes and adding effects like background blur and drop shadows I created little content blocks. I filled these block with some inspiring words to make it look like a real business website. Not Shakesphere but it will do. I took the logo we added earlier and made a copy which I scaled much larger than the origional size and added that to the design. At this point I did a quick test fit inside the frame to see that everything fits nicely.
+
+![logo](./img/logoScale.png)
+
+> **Note:***Work outside of the frame taking care to ensure the design works and the layout is functional. Dont be afraid to extend the design way past the sise of the frame.*
+
+Keep on adding shapes to the design and use masks, unions to make new and interesting shapes. A frame is also just a shape. I added a frame and made the corners round then dropped one of the images into the frame to create another content block with an image. Its important to enable the clip contnet checkbox from the design and properties pannel so that content does not overflow. 
+
+![content1](./img/content1.png)
+
+I layered two more squares and with images and some text to create the final content block for the main page of the platform.
+
+![content2](./img/contnet2.png)
+
+After taking the time to fill all content blocks with some text I worked on the layout of the platform. I took time to make sure everything fits and looks aligned.
+
+![layout1](./img/layout1.png)
+
+Once I was happy with the layout I selected all the content and dropped it into the frame we made. Notice what happens when you add the desing to the frame. all the content just dissapears behing the frame and wont be visible when we try to present the design. To fix this we need to enable scrolling. This can be done by selecting the frame and then selecting prototype from the design and properties pannel. 
+
+![enable scroll](./img/enableScroll.png)![flow start](./img/flowStart.png)
+
+We can decide what scroll behaviour the frame should have from the drop down menu. While looking at this pannel we should add a low starting point. This allows us to share the flow with other users instead of the design file. Once other user opens the shared link they will be presented with the page which we marked as the flow starting point and will be able to view the design as if it is a functioning web page. 
+
+![present](./img/present.png)
+
+We can now present the file by clicing on the play icon in the top right of the toolbar to view what we have created. Since we might not have the same size screen as we developed this platform to have we can re-size the presentation by pressing `Z` on the keyboard. This will resize the design to one of the following:
+
+- Actual size
+- Fill screen
+- Fit to width
+- Fit to screen
+
+### Sharing the design
+Inorder to share the design we can select the share button, which will open a small window in the middle of the screen. From here we can provide figma with the email addresses of people you would like to share the design with as well as select their level of access to the design file. We can give users edit or viewing rights.
+
+![share](./img/share1.png)
+
+All users will be able to create comments directly on the design file with the comment tool. But only users with edit rights will be able to make any changes to your design file. 
+
+
