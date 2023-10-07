@@ -89,27 +89,7 @@ nav:
                 - materials/explore.md # this will be menu file with all courses
                 - Figma: 
                         - materials/figma/index.md
-                        - Fundamentals: 
-                                - materials/figma/figma_basic/index.md
-                                - "": materials/figma/figma_basic/shapeTools.md
-                                - "": materials/figma/figma_basic/masks.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
-                                - "": materials/figma/figma_basic/effects.md
+                        - Fundamentals: materials/figma/figma_basic/index.md
                 - MKdocs: 
                         - materials/mkdocs/index.md
                         - MKdocs Materials: materials/mkdocs/index2.md
@@ -122,4 +102,5 @@ nav:
                 - Terms of use: about/terms.md
                 - License: about/license.md
         - Help: help.md
-
+not_nav:
+- "": materials/figma/figma_basic/effects.md
