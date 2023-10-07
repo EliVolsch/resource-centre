@@ -61,6 +61,40 @@ In order to effectivly navigate the through the platfor we need to add a navbar.
 
     ![nav4-color1](./img/nav4-color1.png)![nav4-color2](./img/nav4-color2.png)![nav4-color3](./img/nav4-color3.png)
 
-    Notice the gradient follow the gradient line guide on the selected rectangle.
+    Notice the gradient follow the gradient line guide on the selected rectangle. This can be adjusted in any angle to create the desired  effect.
 
     ![nav4-color4](./img//nav4-color-4.png)
+
+### Creating buttons
+Our nav needs some navigational button be be able to navigate. Lets create some text buttons for the nav. I'll create all the different buttons neede for the navbar. We will need at least the following buttons:
+
+- Home
+- Contact us
+- Login
+- Register
+
+This task can be easily achieved with [varients](../figma_basic/variants.md). 
+
+Use the text tool to create a text box. Type `Home` and hit enter. Now select the text and add an [auto layout](../figma_basic/autoLayout.md). 
+
+![auto_button](./img/auto_button.png)
+
+Notice that when we created the auto layout the text was framed. We can nouw give the frame a desctiptave name like `navNormalHome`. This will save us alot of time when we start prototyping. Now copy and paste the frame to create another button. Call this frame something else like `navHomeHover`. 
+
+![autobutton](./img/auto_button2.png)
+
+Now we can continue with styling. I'll make the stroke from the first button invisible by setting its opacity to `0%`. Now create a fill and make sure the opacity is set to `0%`. This might look weird now but will make more scense later. 
+
+![navutton](./img/auto_button3.png)
+
+> **Note:***To avoid weird animations when implementing the hover state both button should be identical with the exception of color. If you do not want a fill on the button simply make the opacity 0%*
+
+For the second hover state button well add a stroke and a fill. This can be any color you want as this will be the way you want the button to look when the mouse is hovered over it. 
+
+We need to create components to be able to create varients. To do this select one of the frames and press `ctrl + alt + K` on your keyboard. If the frame turns purple you have done it right. you can also right click and select create component. Now do the same for the other frame. You should be left with somehthing that looks like this:
+
+![navbutton](./img/auto_button4.png)
+
+Once both frame have been made into components we can select both of them and in the design and properties menu select combine as variants. 
+
+![varient1](./img/varient1.png)![varientset](./img/varinetset.png)
