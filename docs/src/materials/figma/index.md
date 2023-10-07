@@ -15,5 +15,5 @@ Using Figma to create interactive and creative designs is free by simply navigat
 |   |   |
 | :---: | :--- |
 | [![Figma_logo](./figma_basic/img/Figma_fundamentals.png) <br>[**Figma Fundamentals**](./figma_basic/index.md)| Learn the basics of figma tools and where to find them. |
-| [![Figma_beginner](./figma_basic/img/Figma_first.png) <br>[**Platform Design**](./firstProject/index.md) | Create a beautiful interactive platform with animations. |
+| [![Basic Design](./figma_basic/img/Figma_first.png) <br>[**Basic Design**](./basic_page/index.md) | Create a beautiful interactive platform with animations. |
 | [![Figma_beginner](./figma_basic/img/Figma_first.png) <br>[**Advanced Prototyping**](./firstProject/index.md) | Create stunning complex visua animations with an interactive map. |

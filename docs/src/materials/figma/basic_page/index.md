@@ -20,3 +20,17 @@ When you create a design it is important to considder the sise of your canvas. I
 
 1. To start we can open a new blank canvas on figma. I'll create a place holder frame for our contnet
 ![canvas and frame](./img/canvasandframe.png)
+
+Let take a brief moment beofre we get worked up to considder what our web page should liik like. With almost all pages we have some key elements present. We have some form of navigation, some content and links to other web pages like social media or about pages. I went ahead and created a mind map of what our basic web page should look like using [Draw.io](https://app.diagrams.net/). this will give us some clarity on what we shoul considder to be important and what is not as important. 
+
+![Diagram](./img/basicDesign.png)
+
+Armed wtih this knowlege we know we shoul account for at least 3 elements:
+- Buttons
+- Navbar
+- Images - spesifically logo's
+
+we should also account for adidtional pages:
+- Login
+- Register
+- Contact Us
