@@ -98,3 +98,34 @@ We need to create components to be able to create varients. To do this select on
 Once both frame have been made into components we can select both of them and in the design and properties menu select combine as variants. 
 
 ![varient1](./img/varient1.png)![varientset](./img/varinetset.png)
+
+Now we can simply add a new varient by hovring ovr the appropriate button and clicking on the `+` icon. Look fo the add varient tooltip.
+
+![addVarient](./img/addVarients.png)
+
+#### Using the buttons
+Now that we have created a component set we can use the button in the following way. Select assets from the layers and assets pannel. Now search for your component. In this case I named it `NavButtons`.
+
+Click and drag the component to the working area. The button should say home. From the design and properties menu we can change which varinet we want to use. There are 4 states of this one button and we can easily create more if needed. 
+
+![states](./img/states.png)
+
+Notice when changing the parent button the chiled button also changed. This is a useful feature if designs throughout many pages needs to be changed.
+
+![parent](./img/parent.png)
+
+Drag out another button and start to create the layout you would like to see. Add additional atrifacts to make it look nice.
+
+![layout](./img/buttonsLayout.png)
+
+ I want to add a logo to this design. We can easily add an image or `SVG`if you have one on hand. For this demo I will simply use a plugin to get a suitable icon. Plugins can be used by selecting the resources button from the toolbar or pressing `ctrl + I` on your keayboard.
+
+![plugin](./img/pluginToolbar.png)
+
+Search for a suitable plugin and select `RUN` from the menu. In most plugin we can siply search for what we want and drag it to the work area.
+
+![plugin sreach](./img/pluginSearch.png)
+
+Once all the nessacerry buttons and components have been created we can simply select the entire navbar and create a component. This will like the buttons allow us to use it multiple time on many different pages.
+
+![navbar](./img/Navbar.png)
