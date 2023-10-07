@@ -11,7 +11,7 @@ We will cover the following consepts:
 
 > **Note:** *You can use the link to skip to certain sections of this document.*
 
-![basic_design]()
+![basic_design](./img/present.png)
 
 ### Creating a basic layout
 When you create a design it is important to considder the sise of your canvas. In Figma our canvas is called a `Frame`. A frame defines the basic size of the screen and allows us to present the design as if it is a fully working web page. Once all design elements have been created we can simply move them to the frame. To give us an idea of what our target audince might be using we can google for [the most common screen sizes](https://www.google.com/search?q=most+common+screen+sises&oq=most+common+screen+sises&aqs=chrome..69i57j0i13i512l3j0i22i30l6.5984j0j7&sourceid=chrome&ie=UTF-8). Armed with this information we can now start creating a design.
