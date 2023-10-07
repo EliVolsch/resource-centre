@@ -1,7 +1,7 @@
 # Figma Fundamentals: A Quick Reference Guide
 This collection of figma tools is designed to serve as quick reference guide for users to get a brief discription of the tool and its capabilities. Select a tool below to learn more about it.
 
-[![figmainterface](./img/userinterface.png)](./userInterface.md){: style="height:150px"}
+[![figmainterface](./img/userinterface.png){: style="height:150px"}](./userInterface.md){: style="height:150px"}
 
 |   |   |   |   |
 | :---: | :----: | :----: | :----: |
