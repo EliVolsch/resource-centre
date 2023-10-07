@@ -90,6 +90,7 @@ nav:
                 - Figma: 
                         - materials/figma/index.md
                         - Fundamentals: materials/figma/figma_basic/index.md
+                        - Basic Design: materials/figma/basic_page/index.md
                 - MKdocs: 
                         - materials/mkdocs/index.md
                         - MKdocs Materials: materials/mkdocs/index2.md
