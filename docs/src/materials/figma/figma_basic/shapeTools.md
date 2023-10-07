@@ -1,7 +1,33 @@
 ###### [Home](../index.md){: style="width:50%"} | [Back](../fundamentals/index.md){: style="width:50%"}
 
 
-![type:video](https://youtu.be/gnscqweM_NU?si=2mmQOQpot1qfPU3-)
+
+### **Figma Shape Tools**
+Learn the basic of figma's shape tools in this short intoroduction video
+
+-------
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gnscqweM_NU?si=38fOUhSB1PlcKBsR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+-------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # **Basic Shape Tools**:
 Basic shapes are the building blocks of every infetfeace. Shapes like circles or rectangles make can make up everything form avatars and to buttons. Within figma the shape tools are a collection of six tools that create those basic shapes. The deafult tool is the shape tool in the toolbar is the rectagle tool. By clicking the dropdown arrow next to it we can find the rest of the shape tools. 

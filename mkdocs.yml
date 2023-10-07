@@ -18,10 +18,12 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - header.autohide
-    - navigation.expand
+    #- navigation.expand
+    - navigation.prune
     - navigation.indexes
     - navigation.instant
     - navigation.sections
+    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -30,6 +32,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+    #- toc.integrate
   language: en
   palette:
     - scheme: default
@@ -49,11 +52,7 @@ copyright: Kartoza and Contributors
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+      link: https://github.com/EliVolsch/
 
 markdown_extensions:
         - attr_list
@@ -89,13 +88,32 @@ nav:
         - Learning Materials:
                 - materials/explore.md # this will be menu file with all courses
                 - Figma: 
-                        - materials/figma/figma_basic/index.md
-                        - Fundamentals: materials/figma/figma_basic/index.md
-                        - Auto Layout: materials/figma/figma_basic/autoLayout.md
-                        - Getting started: materials/figma/figma/getting-up.md
-                - MKdocs: materials/mkdocs/index.md
-                - MKdocs: materials/mkdocs/index.md
-                - Mkdocs: materials/mkdocs/index.md
+                        - materials/figma/index.md
+                        - Fundamentals: 
+                                - materials/figma/figma_basic/index.md
+                                - "": materials/figma/figma_basic/shapeTools.md
+                                - "": materials/figma/figma_basic/masks.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                                - "": materials/figma/figma_basic/effects.md
+                - MKdocs: 
+                        - materials/mkdocs/index.md
+                        - MKdocs Materials: materials/mkdocs/index2.md
+                        - Mkdocs: materials/mkdocs/index.md
         - Contribute:
                 - /about/contributing.md #Why should people contribute to this platform? Link contributors gh handles
                 - Contribution Guidelines: about/guidelines.md
@@ -104,3 +122,4 @@ nav:
                 - Terms of use: about/terms.md
                 - License: about/license.md
         - Help: help.md
+
