@@ -66,22 +66,30 @@ and select the two squares to copy the address.
 
 3. Navigate to the desired folder in which you want to store the project by using the `CD` command. I want to store my project in my documents folder, but you can put it wherever you would like. 
 
-```cd Documents/```
+```
+cd Documents/
+```
 
 > **Note:** *Make sure your inside the correct folder to avoid confusion later. The path is displayed in the terminal as `~/Documents` or `C:/users/{username}/Documents`*
 
 now clone the GitHub repository by using the `git clone` command. You can paste the previously copied path by pressing `ctrl` + `shift` or `ctrl` + `shift` + `V` depending on your OS. If implemented correctly your comand should look like this:
 
-```git clone https://github.com/EliVolsch/Learn-Centre.git```
+```
+git clone https://github.com/EliVolsch/Learn-Centre.git
+```
 
 4. After your repository has been cloned navigate to the newly created directory. 
 
-```cd Learn-Centre```
+```
+cd Learn-Centre
+```
 
 5. Once inside the directory we can create and activate a vitual environment, by running the following code:
 
-```python -m venv venv```
-```scource venv/bin/activate```
+```
+python -m venv venv
+scource venv/bin/activate
+```
 
 notice your terminal has now changed and displays the following `(venv) (base)`.
 
@@ -89,7 +97,9 @@ notice your terminal has now changed and displays the following `(venv) (base)`.
 
 6. Lets open the project in VS Code by running the following commad:
 
-```code .```
+```
+code .
+```
 
 > **Note:** *Code is the command to lauch visual studio code from the terminal. The full stop `.` indicates the directory. A full stop is the current or active directory*
 
@@ -103,17 +113,23 @@ Select `trust the authors` from wihin vs code.
 
 8. Lets install mkdocs by running the following code:
 
-```pip install mkdocs-material```
+```
+pip install mkdocs-material
+```
 
 9. Once mkdocs has completed its run we can create a new project
 
-```mkdocs new .```
+```
+mkdocs new .
+```
 
 this creates a new folder inside of the directory named `{folder}` and file named `{file}`
 
 10. Lets run this to see what it looks like before continueing.
 
-```mkdocs serve```
+```
+mkdocs serve
+```
 
 inside the terminal a message should appear stating `INFO - [14:44:33] Browser connected: http://127.0.0.1:8000/`. This means that you are now hosting the document site on your local machine and can view it like it would be displayed on the web. Hold `ctrl` and click on the link `http;//127.0.0.1:8000` to open your page in the browser.
 
@@ -241,7 +257,9 @@ touch page2.md
 
 2. once a new file has been created you can open it in `vscode`. This gives us a blank markdown page, which we can add content to. If you are not to fammiliar with markdown syntax you can read more [here](). For simplicity i will just include a heading called page 2.
 
-```# Page 2```
+```
+# Page 2
+```
 
 3. Now save the file. You'll notice some movement in the terminal. This is mkdocs automatically rebuilding the document since it has detected a change in the documentation. Now go an view the documentation in your browser. If you have already closed the browser just hold `ctrl` and click on the link in the terminal `http;//127.0.0.1:8000` to reopen the documentation in your browser.
 
@@ -269,7 +287,9 @@ We can change the layout of the nav by simply addign a few lines of code. This w
 
   Inoredr to change our nav-bar we first need to specify that we want to create a custom nav. we can do this simply by adding the following to `mkdocs.yml`:
 
-  ```nav:```
+  ```
+  nav:
+  ```
 
   ![mkdocs.yml_nav_added]()
 
