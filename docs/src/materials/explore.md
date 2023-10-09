@@ -7,9 +7,9 @@ The video tutorials section, which provides users with the oppertunity to wach a
 
 
 
-|   |   |   |
-| :---: | :----: | :----: |
-|  [<img src="https://github.com/EliVolsch/resource-centre/blob/main/docs/src/img/figma_logo.png" width="300" height="150">](./materials/figma/index.md) <br>[**Figma**](#) |  [<img src="https://github.com/EliVolsch/resource-centre/blob/main/docs/src/img/mkdocs_materials_logo.svg" width="200" height="150">](./materials/mkdocs/index.md) <br>[**Mkdocs Materials**](#) |  [<img src="../img/MainLogo.png" width="200" height="150">](http://www.google.com) <br>[](#) |
+|   |   |   
+| :---: | :----: | 
+|  [<img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/main/docs/src/img/figma_logo.png" width="300px" height="150px">](./materials/figma/index.md) <br>[**Figma**](#) |  [<img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/0d31e55a93492dc9328191276c550550183be766/docs/src/img/mkdocs_materials_logo.svg" width="200px" height="150px">](./materials/mkdocs/index.md) <br>[**Mkdocs Materials**](#) |
 <!-- 
 [<img src="../img/figma_logo.png" width="300" height="150">](./figma/index.md) <br>[**Figma**](/docs/src/materials/figma/index.md)
 
