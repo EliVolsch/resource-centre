@@ -14,3 +14,14 @@ The video tutorials section, which provides users with the oppertunity to wach a
 [<img src="../img/figma_logo.png" width="300" height="150">](./figma/index.md) <br>[**Figma**](/docs/src/materials/figma/index.md)
 
 [![figma_logo](../img/figma_logo.png)](./figma/index.md) -->
+
+<img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/main/docs/src/img/figma_logo.png" alt= “” width="140" height="64"><img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/0d31e55a93492dc9328191276c550550183be766/docs/src/img/mkdocs_materials_logo.svg" alt= “” width="140" height="64">
+
+|   |   |
+| - | - |
+| [<img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/main/docs/src/img/figma_logo.png" alt= “” width="50%">]()  | [<img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/0d31e55a93492dc9328191276c550550183be766/docs/src/img/mkdocs_materials_logo.svg" alt= “” width="50%">]() |
+
+|   |
+| :---: |
+| [<img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/main/docs/src/img/figma_logo.png" height="150px">](./materials/figma/index.md) <br>[**Figma**](#)|
+| [<img src="https://raw.githubusercontent.com/EliVolsch/resource-centre/0d31e55a93492dc9328191276c550550183be766/docs/src/img/mkdocs_materials_logo.svg" height="150px">](./materials/mkdocs/index.md) <br>[**Mkdocs Materials**](#) |
